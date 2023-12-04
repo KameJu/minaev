@@ -27,3 +27,7 @@ a:hover {
 .icon:hover {
 	@apply text-dark-primary;
 }
+
+.arrow {
+	@apply flex items-center border border-solid rounded-full max-w-[350px];
+}

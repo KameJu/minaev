@@ -1,9 +1,9 @@
 import { FC, useState } from 'react'
-import { ISlide } from '@screens/carusel/slides.data'
 import { Timer } from '@utils/timer'
+import { ISlide } from '@utils/slider.interface'
 
-interface ICarusel {
-	className: string
+export interface ICarusel {
+	className?: string
 	slides: ISlide[]
 }
 

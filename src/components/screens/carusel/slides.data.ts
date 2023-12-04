@@ -1,7 +1,4 @@
-export interface ISlide {
-	id: number
-	url: string
-}
+import { ISlide } from '@utils/slider.interface'
 
 export const slides: ISlide[] = [
 	{
