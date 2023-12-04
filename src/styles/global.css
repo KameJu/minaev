@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+	@apply text-black text-[1.3rem];
+	font-family: 'Pt Sans';
+}
+
+.dot {
+	@apply bg-dark-primary w-[0.6rem] h-[0.6rem] rounded-full cursor-pointer;
+}
+
+.active {
+	@apply bg-black hover:transition-all;
+}
+
+a:hover {
+	@apply underline cursor-pointer;
+}
+
+.icon {
+	@apply h-[40px] w-[40px] cursor-pointer;
+}
+
+.icon:hover {
+	@apply text-dark-primary;
+}
